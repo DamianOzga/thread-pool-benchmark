@@ -1,0 +1,14 @@
+server:
+  servlet:
+    session:
+      persistent: false
+  port: 7070
+
+spring:
+  mongodb:
+    embedded:
+      version: 4.4.9
+  data:
+    mongodb:
+      host: localhost
+      port: 27017
